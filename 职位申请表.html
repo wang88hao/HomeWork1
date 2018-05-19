@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>职位申请表</title>
+</head>
+<body>
+	<form action="http://www.itcast.cn" method="post">
+		<div> 
+			<label for="username">姓名 : </label>
+			<input type="text" name="username" id="username">
+		</div>
+		<br />
+		<div>
+			<label for="pwd">密码 : </label>
+			<input type="password" name="pwd" id="pwd" value="">
+		</div>
+		<br />
+		<div>
+			<label>照片 : </label>
+			<input type="file" name="">
+		</div>
+		<br />
+		<div>
+			<label>感兴趣的职位 : </label>
+			<input type="radio" name="zhiwei" id="sheji" value="0"><label for="sheji">web设计</label>
+			<input type="radio" name="zhiwei" id="kaifa" value="1"><label for="kaifa">web开发</label>
+		</div>
+		<br />
+		<div>
+			<label>向往的城市 : </label>
+			<select name="site">
+				<option value="0">--请选择--</option>
+				<option value="1">北京</option>
+				<option value="2">上海</option>
+				<option value="3">深圳</option>
+			</select>
+		</div>
+		<br />
+		<div>
+			<label>协议 : </label>
+			<textarea name="info" >求职信息必须准确,真实。本网站只负责向企业推荐。
+			</textarea>
+		</div>
+		<br />
+		<div>
+		<input name="confirm"  type="checkbox" onclick="agree();" id="cb">我认真阅读并接受以上协议。
+		</div>
+		<br />
+		<div>
+			<label>经验 : </label>
+			<select name="site">
+    			<option>--请选择--</option>
+    			<option>1年</option>
+    			<option>2年</option>
+    			<option>3年</option>
+  			</select>
+		</div>
+		<br />
+		<input type="submit" name="" value="提交">
+		<input type="reset" name="" value="重置">
+	</form>
+</body>
+</html>
